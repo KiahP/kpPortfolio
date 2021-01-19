@@ -6,10 +6,12 @@ body{
     padding: 0;
 }
 
+
+
 :root{
-    --color-primary: #000000;
-    --color-secondary: #ffffff;
-    --color-border: #ffffff34;
+    --color-primary:#e3e6e4; 
+    --color-secondary:#fc00a0;
+    --color-border:black;
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
@@ -91,9 +93,9 @@ body{
 
 /* site-main */
 
-
+/* this area is where my name and picture is at  */
 .site-banner .banner-area{
-    background: url(https://images.unsplash.com/photo-1468608374703-abdfab03d1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat;
+    background:white;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -108,14 +110,15 @@ body{
     transform: translate(-50%, -50%);
 }
 
+/* this is where the dimensions of my image is located  */
 .site-banner .banner-area .author .author-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 180px;
+    height: 240px;
+    border-radius:50%;
     margin: auto;
-    background: url(./assets/about.jpg) no-repeat;
-    background-size: 200%;
-    background-position: 40% 0;
+    background: url(./assets/headshot1.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 80% 0;
 }
 
 
