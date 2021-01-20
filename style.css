@@ -58,7 +58,15 @@ body{
 
 }
 
+a {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
+  a:hover {
+      color: var(--color-secondary);
+  }
 
 /* #global classes */
  /* step four, add header CSS */
