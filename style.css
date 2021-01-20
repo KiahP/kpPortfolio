@@ -17,7 +17,8 @@ body{
     --font-ram: 'Rambla', sans-serif;
 }
 
-/* global classes */
+/* global classes */ 
+/* different size fonts and background */
 .font-staat{
     font: normal 400 18px var(--font-staat);
 }
@@ -44,9 +45,20 @@ body{
     font-size: 16px;
 }
 
+.font-size-50{
+    font-size:50px;
+}
+
 .bgcolor-primary{
     background-color: var(--color-primary);
 }
+
+.font-pink-section{
+    color: var(--color-secondary);
+
+}
+
+
 
 /* #global classes */
  /* step four, add header CSS */
