@@ -10,7 +10,7 @@ body{
 
 :root{
     --color-primary:#e3e6e4; 
-    --color-secondary:#fc00a0;
+    --color-secondary:#ff0084;
     --color-border:black;
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
@@ -58,6 +58,14 @@ body{
 
 }
 
+.font-size-70{
+    font-size: 70px
+}
+
+.font-size-100{
+    font-size: 100px;
+}
+
 a {
     color:black;
     background-color: transparent;
@@ -67,6 +75,43 @@ a {
   a:hover {
       color: var(--color-secondary);
   }
+
+  .social-icon{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa-html5{
+      color: #e34c26;
+      font-size: 5em;
+  }
+
+  .fa-bootstrap{
+      color:#7c4bcb;
+      font-size:5em;
+  }
+
+  .fa-css3-alt{
+      color:#264de4;
+      font-size: 5em;
+  }
+
+  .fa-js-square{
+      color:#f0db4f;
+      font-size: 5em;
+  }
+
+
+
+  /* .social-icon:hover{
+      color: var(--color-secondary)
+  } */
+
+  
 
 /* #global classes */
  /* step four, add header CSS */
@@ -99,7 +144,7 @@ a {
 
 #header .toggle-button{
     background: none;
-    color: var(--color-primary);
+    color: var(--color-secondary);
     position: fixed;
     top: 25px;
     right: 20px;
@@ -112,11 +157,17 @@ a {
 }
 
 /* site-main */
+#home {
+    background: url(./assets/alex-block-dqt_nCUrH5A-unsplash.jpg);
+    background-size: cover;
+
+}
+
+
 
 /* this area is where my name and picture is at  */
 .site-banner .banner-area{
-    background:white;
-    background-size: cover;
+    
     width: 100%;
     height: 100vh;
     position: relative;
@@ -125,22 +176,27 @@ a {
 .site-banner .banner-area .author{
     margin: 0;
     position: absolute;
-    top: 45%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 1;
 }
 
 /* this is where the dimensions of my image is located  */
 .site-banner .banner-area .author .author-img{
     width: 180px;
     height: 240px;
-    border-radius:50%;
+    border-radius:20%;
     margin: auto;
     background: url(./assets/headshot1.jpg) no-repeat;
     background-size: 100%;
     background-position: 80% 0;
+   
 }
 
+.card-img:hover{
+opacity: .5;
+}
 
 @media screen and (min-width: 768px){
     .toggle-button{

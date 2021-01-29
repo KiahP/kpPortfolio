@@ -4,11 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiah Pleasant - Front End Developer</title>
+    <title>Kiah Pleasant | Front End Developer</title>
      <!-- links bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
        <!-- links css -->
     <link rel="stylesheet" href="./style.css">
+        <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        
+        
+    </style>
 </head>
 <body>
     
@@ -21,17 +28,12 @@
                 <nav class="primary-nav navbar-expand-md">
 
                     <div class="site-title text-center py-5">
-                         
                         <a href="#" class="navbar-brand font-staat font-size-40"></a>
                         <p class="description text-uppercase font-os"></p>
                         <div class="row m-0">
-            <div class="col-md-9 offset-md-3 px-0">
+                        <div class="col-md-9 offset-md-3 px-0">
 
-            
-     
-                    
-
-            </div>
+                       </div>
                     </div>
                     <!-- navigation area d-flex flex-column is making it on the left side -->
                     <div class="d-flex flex-column">
@@ -62,12 +64,10 @@
                     <div class="banner-area">
                         <div class="author text-center">
                             <div class="author-img"></div>
-                            <h1 class="text-black font-staat font-size-40 text-uppercase py-3">Kiah Pleasant</h1>
-                            <p class="text-black font size-30 py-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deleniti totam reiciendis in consequatur natus, officia sequi voluptatibus omnis nisi veniam numquam provident asperiores! Quisquam repellendus dolor voluptate minima temporibus?</p>
-                            <div>
-                                <a class="social-icon" href="https://www.linkedin.com/in/kiah-p-253212203/"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="social-icon" href="https://github.com/KiahP"><i class="fab fa-github"></i></a>
-                            </div>
+                        
+                            <h1 class="text-black font-staat font-size-70 text-uppercase py-3 " id="lastName">Kiah <span class="font-pink-section font-size-70 ">Pleasant</span></h1>
+
+                        
                         </div>
                     </div>
                 </section>
@@ -83,25 +83,42 @@
                 <section id="skills">
                     <div>
                         <div>
-                            <h1 class="font-pink-section font-staat font-size-40 text-uppercase py-3">Skills</h1>
+                            <h2 class="font-pink-section font-staat font-size-100 text-uppercase py-3">Skills</h2>
                         </div>
 
 
                         <!-- go back in here later and size icons, create class in css + bootstrap classes -->
                         <!-- line the icons up correctly, make bigger, and put add text -->
-                        <div>
+                        <div class="container">
+                        <div class="row align-items-center">
+
+                        <div class="col-sm-2 align-items-center">
                             <i class="fab fa-html5 skillIcon"></i>
+                            <h6>HTML</h6>
                         </div>
 
-                        <div>
+                        <div class="col-sm-2 align-items-center ">
                             <i class="fab fa-bootstrap"></i>
+                            <h6>bootstrap</h6>
                         </div>
 
-                        <div>
+                        <div class="col-sm-2 align-items-center ">
                             <i class="fab fa-css3-alt"></i>
+                            <h6 >CSS</h6>
                         </div>
-                
-                      
+                        <div class="col-sm-2 align-items-center">
+                            <i class="fab fa-js-square"></i>
+                            <h6>Javascript</h6>
+                        </div>
+
+                    
+
+
+
+                        </div>
+                     
+                    
+                    </div>
                     </div>
                 </section>
                 <br>
@@ -113,7 +130,7 @@
                 
                 <!-- project section - card-body -->
                 <section id="projects">
-                    <h1 class="font-pink-section font-staat font-size-40 text-uppercase py-3">Projects</h1>
+                    <h1 class="font-pink-section font-staat font-size-100 text-uppercase py-3">Projects</h1>
                     <br>
                     <br>
 
@@ -124,11 +141,11 @@
                         <!-- come back here to add image of projects after updating them -->
                     <div class="col-md-6 col-lg-3">
                     <div class="card">
-                        <img src="./assets/pinkclouds.jpg" class="card-img-top img-fluid">
-                        <div class="card-body">
-                          <a href="https://kiahp.github.io/productLanding/">  <h2 class="card-title text-black">Product</h2></a>
-            
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dignissimos.</p>
+                         <a href="https://kiahp.github.io/productLanding/" target="_blank" > <img src="./assets/JS-Forest-Walk.png" class="card-img-top img-fluid"></a>
+                        
+                          <div class="card-body text-center"> 
+                          <h2 class="card-title text-black">Product</h2>
+                            <p>CSS HTML JS BOOTSTRAP</p> 
                             
                         </div>
                     </div>
@@ -137,12 +154,12 @@
                     <!-- Project #2 -->
                     <!-- come back here to add image of projects after updating them -->
                     <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="./assets/pinkTech.jpg" class="card-img-top img-fluid">
-                        <div class="card-body">
-                           <a href="https://kiahp.github.io/madLibs/"><h2 class="card-title text-black">Mad Libs</h2></a>
-            
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dignissimos.</p>
+                    <div class="card ">
+                       <a href="https://kiahp.github.io/madLibs/" target="_blank" > <img src="./assets/MadLibs.png" class="card-img-top img-fluid" ></a>
+                        <div class="card-body text-center">
+                           <h2 class="card-title text-black ">Mad Libs</h2></a>
+    
+                            <p>CSS/HTML</p>
                             
                         </div>
                     </div>
@@ -152,13 +169,13 @@
                     <!-- come back here to add image of projects after updating them -->
                     <div class="col-md-6 col-lg-3">
                     <div class="card">
-                        <img src="./assets/teamlab.jpg" class="card-img-top img-fluid">
-                        <div class="card-body">
-                           <a href="https://kiahp.github.io/aboutMe/" > <h2 class="card-title">About Me</h2></a>
+                        <a href="https://kiahp.github.io/aboutMe/" target="_blank"> <img src="./assets/aboutmeProject.png" class="card-img-top img-fluid"> </a>
+                        <div class="card-body text-center"></a>
+                           <h2 class="card-title">About Me</h2>
         
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dignissimos.</p>
+                            <p>HTML/CSS</p> 
                             
-                        </div>
+                       </div>
                     </div>
                     </div>
 
@@ -174,20 +191,23 @@
 
                 <!-- come back and edit the text using bootstrap classes to make it resume style looking  -->
                 <section id="education">
-                    <div>
-                        <div>
-                            
-                            <h1 class="font-pink-section font-staat font-size-40 text-uppercase py-3">Education</h1>
-
-                            <h2>University of Cincinnati</h2>
-                            <p class="font-size-16">2011-2015</p>
-
-                            <h2>Kable Academy</h2>
-                            <p class="font-size-16">Jan 2021 - March 2021</p>
-                            
+                    <h1 class="font-pink-section font-staat font-size-100 text-uppercase py-3">Education</h1>
+                    <div class="d-flex flex-column d-flex justify-content-between bd-highlight mb-3">
+                        <h2 class=" ">Kable Academy</h2>
+                        <div class="">Bootcamp - <i>Web Development</i>
+                        
                         </div>
-                    </div>
+                        
+                      </div>
+
+                    <div class="d-flex flex-column d-flex justify-content-between bd-highlight mb-3">
+                        <h2 class=" ">University of Cincinnati</h2>
+                        <div class="">Bachelor's of Arts - <i>Communication</i> </div>
+                       
+                      </div>
+
                 </section>
+
                 <br>
                 <br>
                 <br>
@@ -195,16 +215,34 @@
 
                 <!-- come back and edit the text using bootstrap classes to make it resume style looking  -->
                 <section id="experience">
-                    <div>
-                        <div>
-                            
-                            <h1 class="font-pink-section font-staat font-size-40 text-uppercase py-3">Experience</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, corrupti sint recusandae beatae harum quae hic sit quo mollitia modi illo itaque sunt aliquam iure.</p>
-                            
-                        </div>
-                    </div>
-                </section>
+                    <h1 class="font-pink-section font-staat font-size-100 text-uppercase py-3">Experience</h1>
 
+                    <div class="d-flex flex-column d-flex justify-content-between bd-highlight mb-3">
+                        <h2 class=" ">Cincinnati Eye Institute</h2>
+                        <div class="">IT Support Technician</div>
+                        <ul>
+                            <li>Develop, update, document and manage GPOs across complex multiple domain, network environment </li>
+                            <li>Installed and maintained company’s computer systems and network</li>
+                            <li>Assisted hospital staff with computer and network issues</li>
+                        </ul>
+                      </div>
+                      <div class="d-flex flex-column d-flex justify-content-between bd-highlight mb-3">
+                        <h2 class=" ">ATOS</h2>
+                        <div class="">Help Desk Analyst</div>
+                        <ul>
+                            <li>Provide technical support to network, database, security, and development overnight teams to prevent outages occurring during business hours. Consulting with the incident management team to find solutions to network and server issues. </li>
+                            <li>Assist with troubleshooting Windows and network issues to end users using remote control tools. </li>
+                            <li>Managed strict security access through Active Directory and Symantec VIP Manager in order to prevent phishing attacks </li>
+                        </ul>
+                      </div>
+            
+
+
+
+
+
+                </section>
+              
 
 
                 <br>
@@ -218,9 +256,12 @@
                     <div>
                         <div>
                             
-                            <h1 class="font-pink-section font-staat font-size-40 text-uppercase py-3">Resume</h1>
+                            <h1 class="font-pink-section font-staat font-size-100 text-uppercase py-3">Resume</h1>
 
-                            <button> Download</button>
+                            <!-- <a href=""> <i class="fas fa-file-download"></i> Download My Resume
+                                </a> -->
+
+                                <iframe src="//www.slideshare.net/slideshow/embed_code/key/KNWQ1LXva463yi" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/secret/KNWQ1LXva463yi" title="Kiah pleasant" target="_blank"></a> </strong>  <strong><a href="https://www.slideshare.net/KiahPleasant" target="_blank"></a></strong> </div>
                             
                         </div>
                     </div>
@@ -235,8 +276,17 @@
                     <div>
                         <div>
                             
-                            <h1 class="font-pink-section font-staat font-size-40 text-uppercase py-3">Contact</h1>
+                            <h1 class="font-pink-section font-staat font-size-100 text-uppercase py-3">Contact</h1>
                             
+                            <div class="d-flex justify-content-center">
+                            <div style="font-size:x-large;">
+                                <a href = "mailto: kiahpleasant@gmailcom">kiahpleasant@gmail.com</a> </div>
+                            
+                                <div>
+                                <a class="social-icon" href="https://www.linkedin.com/in/kiah-p-253212203/"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="social-icon" href="https://github.com/KiahP"><i class="fab fa-github"></i></a>
+                                </div>
+                           </div>
                         </div>
                     </div>
                 </section>
