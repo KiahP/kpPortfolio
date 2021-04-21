@@ -9,8 +9,8 @@ body{
 
 
 :root{
-    --color-primary:#e3e6e4; 
-    --color-secondary:#ff0084;
+    --color-primary:#DF928E; 
+    --color-secondary:#C58882;
     --color-border:black;
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
@@ -159,8 +159,10 @@ a {
 
 /* site-main */
 #home {
-    background: url(./assets/alex-block-dqt_nCUrH5A-unsplash.jpg);
+    /* background: url(./assets/code.jpg); */
     background-size: cover;
+    background-color: #EAD2AC;
+  
 
 }
 
@@ -180,7 +182,7 @@ a {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 1;
+    
 }
 
 /* this is where the dimensions of my image is located  */
